@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+
+:root{
+
+    --text-color: #667085;
+    --main-color:#8E2424;
+    font-family: 'fredoka';
+}
+
+
+.navbar{
+
+     width:1440px;
+     height:80px;
+     left: 0px;
+     top: 0px;
+}
+
+#container{
+
+display: table;
+
+}
+
+.name{
+
+     display: table-cell;
+     float: left;
+     width: 113px;
+     height: 24px;
+     font-family: 'fredoka';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+
+     /* cor */
+     color:#3A404E;
+
+     /*prop */
+    margin-left: 8px;
+    margin-top: 22px;
+
+}
+
+.logo{
+
+display: table-cell;
+float: left;
+width:27px;
+height:26.99px;
+margin-left: 100px;
+margin-top: 20px;
+
+}
+
+.navegar{
+
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    gap:25px;
+    
+}
+
+.nav{
+
+    display:flex;
+    flex-direction: row;
+
+    font-size: 16px;
+    font-family: 'fredoka';
+    font-style: normal;
+    line-height: 28px;
+    font-weight: 500;
+
+    /* cor */
+    color: var(--text-color);
+
+    /* layout */
+    margin-left: 119px;
+    margin-top: 20px;
+    margin-right: -101px; 
+
+}
+
+#b1{
+    /* Fonte | cor */
+    display: flex;
+    font-family: 'fredoka';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+    color: var(--text-color);
+
+    align-items: center;
+    
+    margin-left: 460px;
+    margin-top: 12px;
+}
+
+#b2{
+    
+    width: 112px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+
+    /* Layout | Cor */
+
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+
+    /* texto */
+    font-size: 16px;
+    color: #fff;
+    font-family: 'fredoka';
+    font-weight: 500;
+    font-style: normal;
+
+    /* mouse */
+    cursor: pointer;
+
+  /* margin */
+
+    margin-left: 8px;
+    margin-top: 11px;
+
+}
+
+.cabecalho{
+
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       padding:70px 0px ;
+
+       /* layout*/
+
+       position:static;
+       width:1440px;
+       height:407px;
+       left: calc(60% - 1440/2);
+       top: 60px;
+    
+}
+
+#sobre{
+
+    display:flex;
+    /* font | cor */
+     
+    color: var(--main-color);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+#titulo{
+
+    display: flex;
+    text-align: center;
+    /* fonte */
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+
+     /* cor */
+    color: #101828;
+
+}
+
+#conteudo{
+
+    /* font | cor */
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-color);
+
+    margin-top:-15px;
+}
